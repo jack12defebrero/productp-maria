@@ -1,0 +1,180 @@
+:root {
+  --color-nav-footer:rgb(28, 50, 97);
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .nav__container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav__background {
+    background-color: var(--color-nav-footer);
+    padding: 2rem;
+  }
+  
+  .nav__punto {
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav__secciones, a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 19px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    margin-right: 1rem;
+  }
+  
+  .nav__secciones:hover {
+    color: yellow;
+    font-size: 25px;
+    font-weight: 900;
+    border-bottom: solid 5px rgb(229, 245, 0);
+  }
+  
+  .nav__nombre__colegio {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /*footer*/
+  .footer {
+    background-color: var(--color-nav-footer);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .contacto {
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  
+  .direccion {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    line-height:1.1rem;
+    font-weight: 100;
+    }
+  
+
+    /*seccion de noticias*/
+  .noticias {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-nav-footer);
+    color: #fff;
+    margin-top: 0rem;
+  }
+  
+  
+
+.noticias__contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem 0rem 0rem;
+  padding: 2rem;
+}
+
+.noticias__item {
+  width: calc(25% - 1rem);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: aquamarine;
+  padding: 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.861);
+}
+
+.noticias__item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+}
+
+.noticias__item p {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+.noticias__fondo {
+  background-color: rgba(96, 145, 200, 0.285);
+}
+
+  /*css de mision y vision*/ 
+  .mision-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    padding: 4rem;
+    background-color: beige;
+    margin-top: 0rem;
+  }
+  
+  .mision h2, .vision h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .mision p, .vision p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    background-color: rgb(184, 184, 184);
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .mision__vision {
+    text-align: center;
+    background-color: var(--color-nav-footer);
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: -1.2rem;
+    padding: 2rem;
+    
+  }
+ 
+    

@@ -1,0 +1,125 @@
+/* Sección de áreas curriculares */
+:root {
+    --color-nav-footer:rgb(28, 50, 97);
+  }
+  body {
+    background-color: rgb(217, 217, 217);
+  }
+.areas-curriculares {
+    background-color: #f2f2f2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .areas-curriculares__titulo {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .areas-curriculares__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .areas-curriculares__item {
+    width: calc(25% - 1rem);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2rem;
+    border-radius: 2rem;
+    /* background-color: #fff;
+     box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.861);*/
+   
+  }
+  
+  .areas-curriculares__item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+  }
+  
+  .areas-curriculares__item button {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.9rem 5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    background-color: var(--color-nav-footer);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+  
+  .areas-curriculares__item button:hover {
+    background-color: var(--color-primary-dark);
+    border: 4px solid black;
+    color: black;
+  }
+  
+  .areas-curriculares__directorio {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .areas-curriculares__directorio button {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .areas-curriculares__directorio button:hover {
+    background-color: var(--color-primary-dark);
+  }
+  
+
+  .areas-curriculares__boton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .areas-curriculares__boton-directorio {
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.9rem 9rem;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    background-color: var(--color-nav-footer);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .areas-curriculares__boton-directorio:hover {
+    background-color: var(--color-primary-dark);
+    border: 4px solid black;
+    color: black;
+  }
