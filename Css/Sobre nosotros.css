@@ -1,0 +1,71 @@
+.sobre-nosotros__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: azure;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    margin: 3rem;
+}
+  
+  .sobre-nosotros__presentacion {
+    flex-basis: calc(50% - 1rem); /* El ancho de la columna es la mitad menos el margen entre columnas */
+    margin-right: 2rem;
+    text-align: justify;
+  }
+  
+  .sobre-nosotros__imagen {
+    flex-basis: 40%;
+  }
+  
+  .sobre-nosotros__imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+
+/*css de mision y vision*/ 
+.mision-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 2rem;
+  padding: 4rem;
+  background-color: beige;
+  margin-top: 0rem;
+}
+
+.mision h2, .vision h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mision p, .vision p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  background-color: rgb(184, 184, 184);
+  padding: 3rem;
+  text-align: center;
+}
+
+.mision__vision {
+  text-align: center;
+  background-color: var(--color-nav-footer);
+  color: #fff;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: -1.2rem;
+  padding: 2rem;
+  
+}
+  

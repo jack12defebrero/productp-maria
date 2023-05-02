@@ -1,0 +1,91 @@
+/* Estilos para la sección de organización */
+
+:root {
+    --color-nav-footer:rgb(28, 50, 97);
+    --color-curricula: rgb(217, 217, 217)
+  }
+.organizacion {
+    background-color: var(--color-curricula);
+  }
+  
+  .organizacion__item {
+    margin-bottom: 2rem; display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .organizacion__columna {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .organizacion__columna:not(:last-child) {
+    border-right: 1px solid #ccc;
+    padding-right: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .organizacion__columna:last-child {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .organizacion__columna:last-child .organizacion__imagen {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .organizacion__imagen {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .organizacion__imagen img {
+    border-radius: 2rem;
+    width: 100%;
+  }
+  
+  .organizacion__imagen p {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .background__botones {
+    background-color: aquamarine;
+    padding: 2rem;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: pointer;
+}
+.background__botones:hover {
+    border: solid 5px black;
+    background-color: rgba(157, 157, 222, 0.568);
+}
+  
+#cambio__color {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.noticias__fondo_1 {
+    background-color: var(--color-curricula);
+}

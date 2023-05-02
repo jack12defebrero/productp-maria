@@ -1,0 +1,99 @@
+.contactenos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f1f1f1;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  
+  .contactenos__mapa {
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: aquamarine;
+  }
+  
+  .contactenos__informacion {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 2rem;
+  }
+  
+  .contactenos__informacion h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contactenos__informacion p {
+    margin: 0;
+  }
+  
+  .contactenos__formulario {
+    width: 100%;
+    margin-top: 2rem;
+    margin: 4rem;
+    background-color: aqua;
+    padding: 3rem;
+  }
+  
+  .contactenos__formulario h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contactenos__formulario label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contactenos__formulario input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .contactenos__formulario textarea {
+    font-size: 16px;
+  resize: vertical;
+  height: 100px;
+  width: 100%;
+  }
+  .contactenos__formulario button {
+    background-color: var(--color-secundario);
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+  
+  .contactenos__formulario button:hover {
+    background-color: var(--color-secundario-hover);
+    border: 3px solid black;
+  }
+  
+ .iframe__mapa {
+    height: 410px;
+    width: 450px;
+    padding: 1rem 4rem 1rem;
+ } 
+
+ .formulario__name {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
+ }

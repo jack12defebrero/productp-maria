@@ -1,0 +1,27 @@
+:root {
+  --color-nav-footer:rgb(28, 50, 97);
+}
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: rgba(226, 183, 240, 0.687);
+    padding: 3rem;
+    height: 70vh;
+    margin-top: 0rem;
+    
+  }
+  
+  .images img {
+    width: 30%;
+    height: 60%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+}
+
+  
