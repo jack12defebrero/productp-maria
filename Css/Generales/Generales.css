@@ -6,6 +6,36 @@ html {
     box-sizing: border-box;
   }
   
+  *::selection {
+    background: var(--color-4);
+    color: var(--background-footer);
+  }
+
+  /* Establece el ancho y la altura de la barra de desplazamiento y el color de fondo */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Personaliza el aspecto del dedal o pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  /* Establece el radio de borde del dedal */
+  border-radius: 10px;
+  /* Crea un degradado de fondo para el dedal con tres colores diferentes */
+ background-color: var(--color-nav-footer);
+  /* Establece el radio de borde para diferentes navegadores */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+
+/* Establece el color de fondo de la pista o carril de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: rgb(214, 208, 208);
+}
+
   body {
     margin: 0;
   }
